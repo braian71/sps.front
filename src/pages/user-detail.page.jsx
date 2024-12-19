@@ -47,7 +47,7 @@ const UserDetail = () => {
                 await fetch({ url: `${endpoints.users.base}`, method: 'POST', data: values });
                 alert("Usuario creado exitosamente ");
             }
-            navigate("/users");
+            navigate("/");
         } catch (err) {
             alert("Error al guardar el usuario. Intente de nuevo.");
         }
@@ -103,7 +103,7 @@ const UserDetail = () => {
                 </div>
                 <div className="flex gap-10 mt-8">
                     <button type="submit">[Guardar Cambios]</button>
-                    <button type="button" onClick={() => navigate("/users")}>[Cancelar]</button>
+                    <button type="button" onClick={() => navigate("/")}>[Cancelar]</button>
                 </div>
             </form>
         </section >

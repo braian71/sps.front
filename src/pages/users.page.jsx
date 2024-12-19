@@ -35,7 +35,7 @@ const Users = () => {
                 <h2>Usuarios</h2>
                 <button onClick={logout}>[Cerrar Sesión]</button>
             </div>
-            <button className=" mt-8" onClick={() => navigate("/user-form/new")}>[+ Crear Usuario]</button>
+            <button className=" mt-8" onClick={() => navigate("/user/new")}>[+ Crear Usuario]</button>
             {data && data.data && (
                 <table className="mt-4">
                     <thead>
@@ -53,7 +53,7 @@ const Users = () => {
                                 <td>{u.email}</td>
                                 <td>{u.type}</td>
                                 <td >
-                                    <button className="text-sm" onClick={() => navigate(`/user-form/${u._id}`)}>
+                                    <button className="text-sm" onClick={() => navigate(`/user/${u._id}`)}>
                                         [Editar]
                                     </button>
                                     <button className="text-sm ml-10" onClick={() => handleDelete(u._id)}>[Eliminar]</button>

@@ -10,8 +10,8 @@ function AppRouter() {
         <Router>
             <Routes>
                 <Route path="/login" element={<Login />} />
-                <Route path="/users" element={<PrivateRoute><Users /></PrivateRoute>} />
-                <Route path="/user-form/:id" element={<PrivateRoute><UserDetail /></PrivateRoute>} />
+                <Route path="/" element={<PrivateRoute><Users /></PrivateRoute>} />
+                <Route path="/user/:id" element={<PrivateRoute><UserDetail /></PrivateRoute>} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </Router>

@@ -10,7 +10,7 @@ export const useAuth = () => {
         setUser({ email: data.data.email });
 
         localStorage.setItem("auth_token", data.token);
-        navigate("/users");
+        navigate("/");
     };
 
     const logout = () => {
