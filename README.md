@@ -25,6 +25,7 @@ Funcionalidades
 
 ## Estructura de Archivos
 
+```
 ├── .env
 ├── .gitignore
 ├── dist/
@@ -67,4 +68,9 @@ Funcionalidades
 │   │   ├── private.router.jsx
 ├── tailwind.config.js
 ├── vite.config.js
+```
 
+
+## Variables de entorno
+
+VITE_API_URL=http://localhost:5000/api
