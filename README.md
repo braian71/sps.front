@@ -74,3 +74,11 @@ Funcionalidades
 ## Variables de entorno
 
 VITE_API_URL=http://localhost:5000/api
+
+## Capturas
+
+![image](https://github.com/user-attachments/assets/dbee5ac5-8be5-4ef4-8f91-a466454b7b49)
+
+![image](https://github.com/user-attachments/assets/fcbba18a-52d2-4c20-b784-bf24f50a5da4)
+
+![image](https://github.com/user-attachments/assets/bd72b3d8-f986-4e81-a156-60ffdc32212e)
