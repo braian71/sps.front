@@ -1,6 +1,6 @@
 export const endpoints = {
     auth: {
-        login: 'users/login'
+        login: 'auth/login'
     },
     users: {
         base: 'users',

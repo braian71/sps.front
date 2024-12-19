@@ -12,7 +12,7 @@ const UserDetail = () => {
 
     const id = useParams().id === 'new' ? null : useParams().id;
 
-    const { data, success, error, loading, fetch } = useAxios();
+    const { data, error, loading, fetch } = useAxios();
 
     const {
         register,
